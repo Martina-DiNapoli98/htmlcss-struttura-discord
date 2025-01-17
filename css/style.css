@@ -116,18 +116,50 @@ header{
 }
 
 .technology-card{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .technology{
     height: 600px;
     background-color: #228b22;
-
-
 }
 
+.last-card{
+    background-color: #23272a;
+}
 
+.last-container{
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+}
 
+.info{
+    width: 40%;
+    min-height: 345px;
+    background-color: #f08080;
+}
+.info-1{
+    width: 15%;
+    min-height: 345px;
+    background-color: #1e90ff;
+    border: dotted 1px black;
+}
+
+.last-section{
+    min-height: 100px;
+    display: flex;
+    background-color: #add8e6;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    
+    min-width: 80px;
+    min-height: 40px;
+    background-color: #ee82ee;
+    border: dotted 1px black;
+    text-align: center;
+}
