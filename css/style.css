@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+m-w-200{
+    min-width: 100%;
+}
+
+.d-flex{
+    display: flex;
+    min-height: 40px;
+    background-color: #add8e6;
+    justify-content: center;
+    align-items:center;
+}
+
+.item{
+    min-height: 20px;
+    min-width: 200px;
+    background-color: #daa520;
+    border: dotted 1px black;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.item-2{
+    min-width: 400px;
+}
+
+.jumbotron{
+    display: flex;
+    background-color: #00008b;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    border: dotted 1px black;
+}
+
+.container{
+    min-height: 245px;
+    background-color: #ee82ee;
+    min-width: 600px;
+    border: dotted 1px black;
+}
